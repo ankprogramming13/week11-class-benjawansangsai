@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>210</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+-id: int
+-name: String
+-age: int
+-height: double
+--
++ getId():int
++ getName(): String
++ getAge(): int
++ getHeight: double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>430</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>_Noctis: Student_
+--
+-id: int=36548
+-name: String="Noctis"
+-age: int=20
+-height: double=176
+--
++ getId():int
++ getName(): String
++ getAge(): int
++ getHeight: double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>430</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>_Ignis: Student_
+--
+-id: int=36549
+-name: String="Ignis"
+-age: int=22
+-height: double=183
+--
++ getId():int
++ getName(): String
++ getAge(): int
++ getHeight: double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>430</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>_Gladiolus: Student_
+--
+-id: int=36550
+-name: String="Gladiolus"
+-age: int=23
+-height: double=198
+--
++ getId():int
++ getName(): String
++ getAge(): int
++ getHeight: double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>430</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>_Prompto: Student_
+--
+-id: int=36551
+-name: String="Prompto"
+-age: int=20
+-height: double=173
+--
++ getId():int
++ getName(): String
++ getAge(): int
++ getHeight: double</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
