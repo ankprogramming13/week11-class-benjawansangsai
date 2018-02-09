@@ -1,10 +1,19 @@
 #include <iostream>
+#include <fstream>
 #include <string>
-
 using namespace std;
 
 int main() {
-    string str = "There are two needles in this haystack with needles.";
-    cout << str << endl;
-    return 0;
+   string line;
+   ifstream myfile("example.txt");
+    if (myfile.is_open())
+   {
+       while (getline(myfile,line))
+       {
+           cout << line << '\n';
+       }
+       myfile.close();
+   }
+        else cout << "Unable to open file";
+        return 0;
 }
