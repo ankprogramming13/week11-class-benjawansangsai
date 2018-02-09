@@ -1,29 +1,15 @@
 #include <iostream>
-#include <string>
-
+#include <fstream>
 using namespace std;
 
-class Student
-{
-private:
-    int id;
-    // เพิ่มเอาเอง
-public:
-    Student(int i, string n, int a, double h)
-    {
-        id = i;
-
-    }
-
-    int getId()
-    {
-        return id;
-    }
-    // เพิ่มเอาเอง
-};
-
-int main ()
-{
-
-    return 0;
+int main() {
+   ofstream myfile ("emample.txt");
+   if (myfile.is_open())
+   {
+       myfile << "This is a line.\n";
+       myfile << "This is another line.\n";
+       myfile.close();
+   }
+    else cout << "Unable to open file";
+        return 0;
 }
